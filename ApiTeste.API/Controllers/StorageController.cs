@@ -13,7 +13,7 @@ public class StorageController : ControllerBase
 
         UploadFotoUseCase usecase = new();
 
-        usecase.Execute();
+        usecase.Execute(arquivo);
 
         return Created();
     }

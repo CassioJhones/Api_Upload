@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiTeste.API", "ApiTeste.API\ApiTeste.API.csproj", "{2FA8FB26-B121-4642-938F-B113BF3D25EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiTeste.API", "ApiTeste.API\ApiTeste.API.csproj", "{2FA8FB26-B121-4642-938F-B113BF3D25EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiTeste.Application", "ApiTeste.Application\ApiTeste.Application.csproj", "{C3D41A1C-50D1-46F9-BB3E-E67A39E7873A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiTeste.Application", "ApiTeste.Application\ApiTeste.Application.csproj", "{C3D41A1C-50D1-46F9-BB3E-E67A39E7873A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiTeste.Infraestrutura", "ApiTeste.Infraestrutura\ApiTeste.Infraestrutura.csproj", "{C2EF71A0-89D6-4D2E-AEBA-8A225562E8F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiTeste.Domain", "ApiTeste.Domain\ApiTeste.Domain.csproj", "{3E8677AB-ACFD-4452-B31E-1830B08CE24E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{C3D41A1C-50D1-46F9-BB3E-E67A39E7873A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3D41A1C-50D1-46F9-BB3E-E67A39E7873A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3D41A1C-50D1-46F9-BB3E-E67A39E7873A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2EF71A0-89D6-4D2E-AEBA-8A225562E8F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2EF71A0-89D6-4D2E-AEBA-8A225562E8F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2EF71A0-89D6-4D2E-AEBA-8A225562E8F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2EF71A0-89D6-4D2E-AEBA-8A225562E8F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E8677AB-ACFD-4452-B31E-1830B08CE24E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E8677AB-ACFD-4452-B31E-1830B08CE24E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E8677AB-ACFD-4452-B31E-1830B08CE24E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E8677AB-ACFD-4452-B31E-1830B08CE24E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
